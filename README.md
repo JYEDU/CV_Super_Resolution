@@ -26,8 +26,6 @@
     - Low Resolution을 Input으로 한 모델
     - Skip Connection과 Network in Network를 사용한 모델
 
-![image](https://user-images.githubusercontent.com/87462769/143516868-b09c81e3-fadd-4628-872d-65802005b295.png)
-
 4. 참고자료
     - [[Paper](https://arxiv.org/ftp/arxiv/papers/1707/1707.05425.pdf)] Fast and Accurate Image Super Resolution by Deep CNN with Skip Connection and Neural Network 
     - [[Github](https://github.com/chldydgh4687/09_2021-2.ComputerVision_DCSCN_pytorch)] 09_2021-2.ComputerVision_DCSCN_pytorch Repository
