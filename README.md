@@ -17,11 +17,18 @@
     - Image Enhancement / Image Restoration 작업
     - Scale Factor (x2, x4), Noise를 갖는 Low Resolution에서 High Resolution까지의 화질 복원 및 향상을 목표로 함
 
+![image](https://user-images.githubusercontent.com/87462769/143516786-50d116ca-0ff6-498f-b9c7-3e510c1401e0.png)
+
+
 3. 방법론
+    - 딥러닝 기반의 Single-Image Super-Resolution (SISR) 모델인 네트워크에서 Deep CNN에 의한 빠르고 정확한 이미지 초해상도의 텐서플로 구현
+    - 효율적인 네트워크 설계를 통한 화질 향상
+    - Low Resolution을 Input으로 한 모델
+    - Skip Connection과 Network in Network를 사용한 모델
 
-4. 데이터 셋
+![image](https://user-images.githubusercontent.com/87462769/143516868-b09c81e3-fadd-4628-872d-65802005b295.png)
 
-5. 참고자료
+4. 참고자료
     - [[Paper](https://arxiv.org/ftp/arxiv/papers/1707/1707.05425.pdf)] Fast and Accurate Image Super Resolution by Deep CNN with Skip Connection and Neural Network 
     - [[Github](https://github.com/chldydgh4687/09_2021-2.ComputerVision_DCSCN_pytorch)] 09_2021-2.ComputerVision_DCSCN_pytorch Repository
     - [[Github](https://github.com/jiny2001/dcscn-super-resolution))] dcscn-super-resolution
